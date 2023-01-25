@@ -1,0 +1,56 @@
+body {
+    color: white;
+    background: rgb(0, 0, 0);
+    background-image: url(../img/fondo1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 100px;
+}
+
+/*Menu*/
+
+.bg-dark{
+    margin-top: -80px;
+}
+
+.navbar{
+    background: black !important;
+}
+.nav-link{
+    color: white !important;
+}
+
+.navbar-toggler{
+    background: white !important;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+/*Incio*/
+.inicio{
+ 
+    text-align: center;
+}
+.inico h1{
+    font-size: 50px;
+}
+
+.inicio .grid img{
+    width: 450px;
+}
+
+.inicio .grid-padre{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+}
+
+@media (max-width: 576px){
+    .grid-padre{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
