@@ -1,5 +1,0 @@
-Pasos para iniciar SASS
-
-1. npm init
-
-2. npm install -d node-sass nodemon
